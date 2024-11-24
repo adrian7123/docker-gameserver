@@ -14,7 +14,7 @@ services:
   linuxgsm-csgo-volume:
     image: gameservermanagers/gameserver:csgo
     # image: ghcr.io/gameservermanagers/gameserver:csgo
-    container_name: csgoserver
+    container_name: csgoserver2
     restart: unless-stopped
     volumes:
       - linuxgsm-csgo:/data
